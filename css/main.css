@@ -1,11 +1,15 @@
 body {
     background-color: #ffffff;
-    margin-top: 7%;
+    margin-top: 10%;
     margin-bottom: auto;
     margin-left: 25%;
     font-family: Cutive, serif;
     font-size: 16px;
-    font-size: 1.5vw;
+    font-size: calc((.4em + .4vmin) + (.4em + .4vmax));
+}
+
+.name {
+    font-size: calc((.4em + .6vmin) + (.4em + .6vmax));
 }
 
 .about {
