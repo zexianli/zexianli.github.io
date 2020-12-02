@@ -26,6 +26,15 @@ body {
     margin-right: 5%;
 }
 
+#curr-project {
+    text-decoration: none;
+    color: teal;
+}
+
+#curr-project:hover {
+    color: rgb(0, 82, 82);
+}
+
 li > a {
     text-decoration: none;
 }
