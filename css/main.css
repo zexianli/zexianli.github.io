@@ -2,10 +2,20 @@ body {
     background-color: #ffffff;
     margin-top: 10%;
     margin-bottom: auto;
-    margin-left: 22%;
+    margin-left: 30%;
+    margin-right: 30%;
     font-family: Cutive, serif;
     font-size: 16px;
     font-size: calc((.4em + .4vmin) + (.4em + .4vmax));
+}
+
+.main {
+    width: 100%;
+}
+
+hr {
+    margin: 0px;
+    width: 100%;
 }
 
 .name {
@@ -13,11 +23,12 @@ body {
 }
 
 .about {
-    min-width: 75%;
+    margin: 0px;
+    min-width: 100%;
 }
 
 .contact-container ul {
-    padding: 0;
+    padding: 0px;
     list-style-type: none;
 }
 
@@ -32,7 +43,7 @@ body {
 }
 
 #curr-project:hover {
-    color: rgb(0, 82, 82);
+    color: rgb(0, 53, 53);
 }
 
 li > a {
@@ -59,4 +70,47 @@ li > a {
     0% {opacity: 0;}
     50% {opacity: 1;}
     100% {opacity: 0;}
+}
+
+.projects_title {
+    padding-top: 1%;
+    color: teal;
+}
+
+.projects_list {
+    list-style-type: none;
+    font-style: italic;
+    padding: 0px;
+}
+
+.project_description {
+    font-style: normal;
+    margin: 0px;
+    padding-bottom: 1%;
+    font-size: 10px;
+    font-size: calc((.18em + .18vmin) + (.18em + .18vmax));
+}
+
+#project_item {
+    color: #3D6999;
+}
+
+.project_work_done {
+    margin: 0px;
+    font-size: 16px;
+    font-size: calc((.25em + .25vmin) + (.25em + .25vmax));
+    font-style: normal;
+}
+
+@media only screen and (max-device-width : 640px) {
+    body {
+        background-color: #ffffff;
+        margin-top: 10%;
+        margin-bottom: auto;
+        margin-left: calc(100% / 8);
+        margin-right: calc(100% / 8);
+        font-family: Cutive, serif;
+        font-size: 16px;
+        font-size: calc((.4em + .4vmin) + (.4em + .4vmax));
+    }
 }
